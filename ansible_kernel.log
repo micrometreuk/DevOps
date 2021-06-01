@@ -6103,3 +6103,116 @@ localhost ansible_connection=local
 [2021-06-01 01:15:17,322] INFO [ansible_kernel.kernel.cancel_callback:1146] called
 [2021-06-01 01:15:19,186] INFO [ansible_kernel.kernel.cancel_callback:1146] called
 [2021-06-01 01:15:22,326] INFO [ansible_kernel.kernel.cancel_callback:1146] called
+[2021-06-01 01:15:24,190] INFO [ansible_kernel.kernel.cancel_callback:1146] called
+[2021-06-01 01:15:27,331] INFO [ansible_kernel.kernel.cancel_callback:1146] called
+[2021-06-01 01:15:29,195] INFO [ansible_kernel.kernel.cancel_callback:1146] called
+[2021-06-01 01:15:32,335] INFO [ansible_kernel.kernel.cancel_callback:1146] called
+[2021-06-01 01:15:34,198] INFO [ansible_kernel.kernel.cancel_callback:1146] called
+[2021-06-01 01:15:34,650] DEBUG [ansible_kernel.kernel.send_multipart:86] send_multipart [b'kernel.f3b425bd-5045-401d-ad9e-bc371c3e3cf4.status', b'<IDS|MSG>', b'b0691d37a9997235836932e454f8dfc32f14e5b058de8084eb551834b8a6131d', b'{"version":"5.3","date":"2021-06-01T00:15:34.649847Z","session":"c7d09cb7-da98674b571921cec50e2ea6","username":"boxer","msg_type":"status","msg_id":"c7d09cb7-da98674b571921cec50e2ea6_32"}', b'{"version":"5.3","date":"2021-06-01T00:15:34.647342Z","session":"f99583d7-522d17044d8695199e13c7f9","username":"boxer","msg_type":"shutdown_request","msg_id":"f99583d7-522d17044d8695199e13c7f9_0"}', b'{}', b'{"execution_state":"busy"}'] () {'copy': True}
+[2021-06-01 01:15:34,650] DEBUG [ansible_kernel.kernel.send_multipart:86] send_multipart [b'kernel.0fd1babd-4953-470b-b6b0-fbc0ce6479c8.status', b'<IDS|MSG>', b'40f427b43c36ec14188fba13d80b8b6c012db8099b04ca92a28011dc9528c45e', b'{"version":"5.3","date":"2021-06-01T00:15:34.649867Z","session":"5b1ac94a-2743e26aff4c310b0cadabb2","username":"boxer","msg_type":"status","msg_id":"5b1ac94a-2743e26aff4c310b0cadabb2_33"}', b'{"version":"5.3","date":"2021-06-01T00:15:34.646616Z","session":"b057da7f-bd8a4b3d52604aa137fbfbb1","username":"boxer","msg_type":"shutdown_request","msg_id":"b057da7f-bd8a4b3d52604aa137fbfbb1_0"}', b'{}', b'{"execution_state":"busy"}'] () {'copy': True}
+[2021-06-01 01:15:34,650] DEBUG [ansible_kernel.kernel.send_multipart:89] result None
+[2021-06-01 01:15:34,650] DEBUG [ansible_kernel.kernel.send_multipart:89] result None
+[2021-06-01 01:15:34,650] DEBUG [ansible_kernel.kernel.send_multipart:1233] send_multipart 7 [b'kernel.f3b425bd-5045-401d-ad9e-bc371c3e3cf4.status', b'<IDS|MSG>', b'b0691d37a9997235836932e454f8dfc32f14e5b058de8084eb551834b8a6131d', b'{"version":"5.3","date":"2021-06-01T00:15:34.649847Z","session":"c7d09cb7-da98674b571921cec50e2ea6","username":"boxer","msg_type":"status","msg_id":"c7d09cb7-da98674b571921cec50e2ea6_32"}', b'{"version":"5.3","date":"2021-06-01T00:15:34.647342Z","session":"f99583d7-522d17044d8695199e13c7f9","username":"boxer","msg_type":"shutdown_request","msg_id":"f99583d7-522d17044d8695199e13c7f9_0"}', b'{}', b'{"execution_state":"busy"}'] () {'copy': True}
+[2021-06-01 01:15:34,650] DEBUG [ansible_kernel.kernel.send_multipart:1236] msg0 b'kernel.f3b425bd-5045-401d-ad9e-bc371c3e3cf4.status'
+[2021-06-01 01:15:34,650] DEBUG [ansible_kernel.kernel.send_multipart:1233] send_multipart 7 [b'kernel.0fd1babd-4953-470b-b6b0-fbc0ce6479c8.status', b'<IDS|MSG>', b'40f427b43c36ec14188fba13d80b8b6c012db8099b04ca92a28011dc9528c45e', b'{"version":"5.3","date":"2021-06-01T00:15:34.649867Z","session":"5b1ac94a-2743e26aff4c310b0cadabb2","username":"boxer","msg_type":"status","msg_id":"5b1ac94a-2743e26aff4c310b0cadabb2_33"}', b'{"version":"5.3","date":"2021-06-01T00:15:34.646616Z","session":"b057da7f-bd8a4b3d52604aa137fbfbb1","username":"boxer","msg_type":"shutdown_request","msg_id":"b057da7f-bd8a4b3d52604aa137fbfbb1_0"}', b'{}', b'{"execution_state":"busy"}'] () {'copy': True}
+[2021-06-01 01:15:34,651] DEBUG [ansible_kernel.kernel.send_multipart:1237] msg1 b'<IDS|MSG>'
+[2021-06-01 01:15:34,651] DEBUG [ansible_kernel.kernel.send_multipart:1236] msg0 b'kernel.0fd1babd-4953-470b-b6b0-fbc0ce6479c8.status'
+[2021-06-01 01:15:34,651] DEBUG [ansible_kernel.kernel.send_multipart:1238] msg2 b'b0691d37a9997235836932e454f8dfc32f14e5b058de8084eb551834b8a6131d'
+[2021-06-01 01:15:34,651] DEBUG [ansible_kernel.kernel.send_multipart:1237] msg1 b'<IDS|MSG>'
+[2021-06-01 01:15:34,651] DEBUG [ansible_kernel.kernel.send_multipart:1238] msg2 b'40f427b43c36ec14188fba13d80b8b6c012db8099b04ca92a28011dc9528c45e'
+[2021-06-01 01:15:34,651] DEBUG [ansible_kernel.kernel.send_multipart:1239] msg3 {'date': '2021-06-01T00:15:34.649847Z',
+ 'msg_id': 'c7d09cb7-da98674b571921cec50e2ea6_32',
+ 'msg_type': 'status',
+ 'session': 'c7d09cb7-da98674b571921cec50e2ea6',
+ 'username': 'boxer',
+ 'version': '5.3'}
+[2021-06-01 01:15:34,651] DEBUG [ansible_kernel.kernel.send_multipart:1239] msg3 {'date': '2021-06-01T00:15:34.649867Z',
+ 'msg_id': '5b1ac94a-2743e26aff4c310b0cadabb2_33',
+ 'msg_type': 'status',
+ 'session': '5b1ac94a-2743e26aff4c310b0cadabb2',
+ 'username': 'boxer',
+ 'version': '5.3'}
+[2021-06-01 01:15:34,652] DEBUG [ansible_kernel.kernel.send_multipart:1240] msg4 {'date': '2021-06-01T00:15:34.647342Z',
+ 'msg_id': 'f99583d7-522d17044d8695199e13c7f9_0',
+ 'msg_type': 'shutdown_request',
+ 'session': 'f99583d7-522d17044d8695199e13c7f9',
+ 'username': 'boxer',
+ 'version': '5.3'}
+[2021-06-01 01:15:34,652] DEBUG [ansible_kernel.kernel.send_multipart:1240] msg4 {'date': '2021-06-01T00:15:34.646616Z',
+ 'msg_id': 'b057da7f-bd8a4b3d52604aa137fbfbb1_0',
+ 'msg_type': 'shutdown_request',
+ 'session': 'b057da7f-bd8a4b3d52604aa137fbfbb1',
+ 'username': 'boxer',
+ 'version': '5.3'}
+[2021-06-01 01:15:34,652] DEBUG [ansible_kernel.kernel.send_multipart:1241] msg5 {}
+[2021-06-01 01:15:34,652] DEBUG [ansible_kernel.kernel.send_multipart:1242] msg6 {'execution_state': 'busy'}
+[2021-06-01 01:15:34,652] DEBUG [ansible_kernel.kernel.send_multipart:1241] msg5 {}
+[2021-06-01 01:15:34,653] DEBUG [ansible_kernel.kernel.send_multipart:89] result None
+[2021-06-01 01:15:34,653] DEBUG [ansible_kernel.kernel.send_multipart:1242] msg6 {'execution_state': 'busy'}
+[2021-06-01 01:15:34,653] INFO [ansible_kernel.kernel.is_ansible_alive:1140] YES
+[2021-06-01 01:15:34,653] DEBUG [ansible_kernel.kernel.send_multipart:89] result None
+[2021-06-01 01:15:34,653] INFO [ansible_kernel.kernel.is_ansible_alive:1140] YES
+[2021-06-01 01:15:34,653] INFO [ansible_kernel.kernel.do_shutdown:1164] waiting for shutdown
+[2021-06-01 01:15:34,653] INFO [ansible_kernel.kernel.is_ansible_alive:1140] YES
+[2021-06-01 01:15:34,654] INFO [ansible_kernel.kernel.is_ansible_alive:1140] YES
+[2021-06-01 01:15:34,654] INFO [ansible_kernel.kernel.do_shutdown:1164] waiting for shutdown
+[2021-06-01 01:15:35,655] INFO [ansible_kernel.kernel.is_ansible_alive:1140] YES
+[2021-06-01 01:15:35,655] INFO [ansible_kernel.kernel.do_shutdown:1164] waiting for shutdown
+[2021-06-01 01:15:35,655] INFO [ansible_kernel.kernel.is_ansible_alive:1140] YES
+[2021-06-01 01:15:35,655] INFO [ansible_kernel.kernel.do_shutdown:1164] waiting for shutdown
+[2021-06-01 01:15:36,656] INFO [ansible_kernel.kernel.is_ansible_alive:1140] YES
+[2021-06-01 01:15:36,657] INFO [ansible_kernel.kernel.is_ansible_alive:1140] YES
+[2021-06-01 01:15:36,657] INFO [ansible_kernel.kernel.do_shutdown:1164] waiting for shutdown
+[2021-06-01 01:15:36,657] INFO [ansible_kernel.kernel.do_shutdown:1164] waiting for shutdown
+[2021-06-01 01:15:37,658] INFO [ansible_kernel.kernel.is_ansible_alive:1140] YES
+[2021-06-01 01:15:37,658] INFO [ansible_kernel.kernel.do_shutdown:1164] waiting for shutdown
+[2021-06-01 01:15:38,659] INFO [ansible_kernel.kernel.is_ansible_alive:1140] YES
+[2021-06-01 01:15:38,660] INFO [ansible_kernel.kernel.do_shutdown:1164] waiting for shutdown
+[2021-06-01 01:15:39,202] INFO [ansible_kernel.kernel.cancel_callback:1146] called
+[2021-06-01 01:15:39,232] INFO [ansible_kernel.kernel.cancel_callback:1146] called
+[2021-06-01 01:15:39,350] INFO [ansible_kernel.kernel.finished_callback:1150] called
+[2021-06-01 01:15:39,661] INFO [ansible_kernel.kernel.do_shutdown:1166] shutdown complete
+[2021-06-01 01:15:39,661] INFO [ansible_kernel.kernel.stop:119] thread.stop start
+[2021-06-01 01:15:39,662] INFO [ansible_kernel.kernel.stop:124] thread.stop end
+[2021-06-01 01:15:39,664] DEBUG [ansible_kernel.kernel.send_multipart:86] send_multipart [b'kernel.f3b425bd-5045-401d-ad9e-bc371c3e3cf4.shutdown', b'<IDS|MSG>', b'7bea66bcb08dcc46ceb97854d162cad99cfaa02704c297ade506b3b333633160', b'{"version":"5.3","date":"2021-06-01T00:15:39.663948Z","session":"c7d09cb7-da98674b571921cec50e2ea6","username":"boxer","msg_type":"shutdown_reply","msg_id":"c7d09cb7-da98674b571921cec50e2ea6_34"}', b'{"version":"5.3","date":"2021-06-01T00:15:34.647342Z","session":"f99583d7-522d17044d8695199e13c7f9","username":"boxer","msg_type":"shutdown_request","msg_id":"f99583d7-522d17044d8695199e13c7f9_0"}', b'{}', b'{"status":"ok","restart":false}'] () {'copy': True}
+[2021-06-01 01:15:39,664] DEBUG [ansible_kernel.kernel.send_multipart:89] result None
+[2021-06-01 01:15:39,664] DEBUG [ansible_kernel.kernel.send_multipart:1233] send_multipart 7 [b'kernel.f3b425bd-5045-401d-ad9e-bc371c3e3cf4.shutdown', b'<IDS|MSG>', b'7bea66bcb08dcc46ceb97854d162cad99cfaa02704c297ade506b3b333633160', b'{"version":"5.3","date":"2021-06-01T00:15:39.663948Z","session":"c7d09cb7-da98674b571921cec50e2ea6","username":"boxer","msg_type":"shutdown_reply","msg_id":"c7d09cb7-da98674b571921cec50e2ea6_34"}', b'{"version":"5.3","date":"2021-06-01T00:15:34.647342Z","session":"f99583d7-522d17044d8695199e13c7f9","username":"boxer","msg_type":"shutdown_request","msg_id":"f99583d7-522d17044d8695199e13c7f9_0"}', b'{}', b'{"status":"ok","restart":false}'] () {'copy': True}
+[2021-06-01 01:15:39,665] DEBUG [ansible_kernel.kernel.send_multipart:1236] msg0 b'kernel.f3b425bd-5045-401d-ad9e-bc371c3e3cf4.shutdown'
+[2021-06-01 01:15:39,665] DEBUG [ansible_kernel.kernel.send_multipart:1237] msg1 b'<IDS|MSG>'
+[2021-06-01 01:15:39,666] DEBUG [ansible_kernel.kernel.send_multipart:1238] msg2 b'7bea66bcb08dcc46ceb97854d162cad99cfaa02704c297ade506b3b333633160'
+[2021-06-01 01:15:39,666] DEBUG [ansible_kernel.kernel.send_multipart:1239] msg3 {'date': '2021-06-01T00:15:39.663948Z',
+ 'msg_id': 'c7d09cb7-da98674b571921cec50e2ea6_34',
+ 'msg_type': 'shutdown_reply',
+ 'session': 'c7d09cb7-da98674b571921cec50e2ea6',
+ 'username': 'boxer',
+ 'version': '5.3'}
+[2021-06-01 01:15:39,667] DEBUG [ansible_kernel.kernel.send_multipart:1240] msg4 {'date': '2021-06-01T00:15:34.647342Z',
+ 'msg_id': 'f99583d7-522d17044d8695199e13c7f9_0',
+ 'msg_type': 'shutdown_request',
+ 'session': 'f99583d7-522d17044d8695199e13c7f9',
+ 'username': 'boxer',
+ 'version': '5.3'}
+[2021-06-01 01:15:39,667] DEBUG [ansible_kernel.kernel.send_multipart:1241] msg5 {}
+[2021-06-01 01:15:39,667] DEBUG [ansible_kernel.kernel.send_multipart:1242] msg6 {'restart': False, 'status': 'ok'}
+[2021-06-01 01:15:39,668] DEBUG [ansible_kernel.kernel.send_multipart:89] result None
+[2021-06-01 01:15:39,670] DEBUG [ansible_kernel.kernel.send_multipart:86] send_multipart [b'kernel.f3b425bd-5045-401d-ad9e-bc371c3e3cf4.status', b'<IDS|MSG>', b'56d7cf823884bdcaa46c8939929ea7cb0bb0482ad293bbe124d3d23a05c78d41', b'{"version":"5.3","date":"2021-06-01T00:15:39.670317Z","session":"c7d09cb7-da98674b571921cec50e2ea6","username":"boxer","msg_type":"status","msg_id":"c7d09cb7-da98674b571921cec50e2ea6_35"}', b'{"version":"5.3","date":"2021-06-01T00:15:34.647342Z","session":"f99583d7-522d17044d8695199e13c7f9","username":"boxer","msg_type":"shutdown_request","msg_id":"f99583d7-522d17044d8695199e13c7f9_0"}', b'{}', b'{"execution_state":"idle"}'] () {'copy': True}
+[2021-06-01 01:15:39,670] DEBUG [ansible_kernel.kernel.send_multipart:89] result None
+[2021-06-01 01:15:39,671] DEBUG [ansible_kernel.kernel.send_multipart:1233] send_multipart 7 [b'kernel.f3b425bd-5045-401d-ad9e-bc371c3e3cf4.status', b'<IDS|MSG>', b'56d7cf823884bdcaa46c8939929ea7cb0bb0482ad293bbe124d3d23a05c78d41', b'{"version":"5.3","date":"2021-06-01T00:15:39.670317Z","session":"c7d09cb7-da98674b571921cec50e2ea6","username":"boxer","msg_type":"status","msg_id":"c7d09cb7-da98674b571921cec50e2ea6_35"}', b'{"version":"5.3","date":"2021-06-01T00:15:34.647342Z","session":"f99583d7-522d17044d8695199e13c7f9","username":"boxer","msg_type":"shutdown_request","msg_id":"f99583d7-522d17044d8695199e13c7f9_0"}', b'{}', b'{"execution_state":"idle"}'] () {'copy': True}
+[2021-06-01 01:15:39,671] DEBUG [ansible_kernel.kernel.send_multipart:1236] msg0 b'kernel.f3b425bd-5045-401d-ad9e-bc371c3e3cf4.status'
+[2021-06-01 01:15:39,671] DEBUG [ansible_kernel.kernel.send_multipart:1237] msg1 b'<IDS|MSG>'
+[2021-06-01 01:15:39,671] DEBUG [ansible_kernel.kernel.send_multipart:1238] msg2 b'56d7cf823884bdcaa46c8939929ea7cb0bb0482ad293bbe124d3d23a05c78d41'
+[2021-06-01 01:15:39,671] DEBUG [ansible_kernel.kernel.send_multipart:1239] msg3 {'date': '2021-06-01T00:15:39.670317Z',
+ 'msg_id': 'c7d09cb7-da98674b571921cec50e2ea6_35',
+ 'msg_type': 'status',
+ 'session': 'c7d09cb7-da98674b571921cec50e2ea6',
+ 'username': 'boxer',
+ 'version': '5.3'}
+[2021-06-01 01:15:39,672] DEBUG [ansible_kernel.kernel.send_multipart:1240] msg4 {'date': '2021-06-01T00:15:34.647342Z',
+ 'msg_id': 'f99583d7-522d17044d8695199e13c7f9_0',
+ 'msg_type': 'shutdown_request',
+ 'session': 'f99583d7-522d17044d8695199e13c7f9',
+ 'username': 'boxer',
+ 'version': '5.3'}
+[2021-06-01 01:15:39,672] DEBUG [ansible_kernel.kernel.send_multipart:1241] msg5 {}
+[2021-06-01 01:15:39,672] DEBUG [ansible_kernel.kernel.send_multipart:1242] msg6 {'execution_state': 'idle'}
+[2021-06-01 01:15:39,673] DEBUG [ansible_kernel.kernel.send_multipart:89] result None
